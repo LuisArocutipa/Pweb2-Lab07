@@ -123,3 +123,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+EMAIL_HOST = 'smtp.hushmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'larocutipa@unsa.edu.pe'
+EMAIL_HOST_PASSWORD = 'luis2a2gut.'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_TIMEOUT = 30
